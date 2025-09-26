@@ -1,12 +1,9 @@
-import React from 'react';
-import Button from './components/Button/Button.jsx';
-import { FiDownload, FiArrowRight, FiHeart, FiStar, FiSettings } from 'react-icons/fi';
+import ButtonDemo from "./components/Button/ButtonDemo.jsx";
 
 function App() {
-
     return (
-        <div ></div>
-    );
+        <ButtonDemo/>
+    )
 }
 
 export default App;
