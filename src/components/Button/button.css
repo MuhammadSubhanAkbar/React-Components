@@ -1,0 +1,47 @@
+/* button.css */
+@import "tailwindcss";
+
+.btn-base {
+    @apply inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed gap-2;
+}
+
+.btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 active:bg-blue-800;
+}
+
+.btn-secondary {
+    @apply bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500 active:bg-gray-800;
+}
+
+.btn-outline {
+    @apply bg-transparent text-blue-600 border-2 border-blue-600 hover:bg-blue-600 hover:text-white focus:ring-blue-500 active:bg-blue-800 active:text-white;
+}
+
+.btn-ghost {
+    @apply bg-transparent text-gray-700 hover:bg-gray-100 focus:ring-gray-500 active:bg-gray-200;
+}
+
+.btn-danger {
+    @apply bg-red-600 text-white hover:bg-red-700 focus:ring-red-500 active:bg-red-800;
+}
+
+
+.btn-sm {
+    @apply px-3 py-1 text-sm;
+}
+
+.btn-md {
+    @apply px-4 py-2 text-base;
+}
+
+.btn-lg {
+    @apply px-5 py-3 text-lg;
+}
+
+.btn-xl {
+    @apply px-6 py-4 text-xl;
+}
+
+.btn-loading {
+    @apply cursor-wait;
+}
